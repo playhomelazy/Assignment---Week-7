@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="utf-8">
+        <title>歡迎光臨早餐店</title>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/style.css')}}"/>
+    </header>
+    <body class="text">
+    <div class="table">
+        <h1 class="box">失敗頁面</h1>
+        <h2>{{messages}}</h2>
+        <input class="btn" type ="button" onclick="javascript:location.href='/'" value="返回首頁"></input>
+    </div>
+    </body>
+</html>

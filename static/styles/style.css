@@ -1,0 +1,30 @@
+.box{
+    font-size: 25px;
+    color: white;
+    margin: 0px;
+    width: auto;
+    height: 60px;
+    line-height: 60px;
+    background-color: #696969;
+}
+
+.table{
+    width: 500px;
+    margin: 90px auto;
+    border-style: solid;
+    border-color: gray;
+}
+
+.text{
+    text-align: center;
+}
+
+.login{
+    margin-bottom: 2%;
+    height: 20px;
+    width: 25%;
+}
+
+.btn{
+    margin: 5%;
+}
